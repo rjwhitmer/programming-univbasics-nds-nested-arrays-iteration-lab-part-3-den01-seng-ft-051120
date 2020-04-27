@@ -16,6 +16,7 @@ def join_nested_strings(src)
         #binding.pry
         sentence = sentence.unshift(src[row_index][element_index])
       end
+      binding.pry
       element_index += 1 
     end
     
