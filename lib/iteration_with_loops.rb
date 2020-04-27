@@ -14,7 +14,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].is_a?(String)
         test = src[row_index][element_index]
         #binding.pry
-        sentence = sentence.unshift(src[row_index][element_index])
+        sentence = sentence.push(src[row_index][element_index])
       end
       binding.pry
       element_index += 1 
